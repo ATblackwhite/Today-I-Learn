@@ -29,3 +29,24 @@ git remote add origin <远程仓库链接>
 ```shell
 git push origin 分支名
 ```
+
+#### 切换到目标分支
+```shell
+git checkout <分支名>
+```
+
+#### 合并分支
+```shell
+git merge <另一分支名>
+```
+如果报错“fatal: refusing to merge unrelated histories”，在后面加上`--allow-unrelated-histories`
+
+#### 删除本地分支
+```shell
+git branch -d <分支名>
+```
+
+删除远程仓库分支
+```shell
+git push origin -d <分支名>
+```
