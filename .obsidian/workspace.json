@@ -1,0 +1,198 @@
+{
+  "main": {
+    "id": "ea44dc17f0cbebde",
+    "type": "split",
+    "children": [
+      {
+        "id": "c8b05617b6c86bf8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ce578a8c47a562e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "git/git命令.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ba42f5d6b20549a0",
+    "type": "split",
+    "children": [
+      {
+        "id": "3aff422e584f0dbd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dc73afdfb3fdacd9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a1aae00e164dbd9d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1f1ac657185d4082",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "d62009c9b6f271ec",
+    "type": "split",
+    "children": [
+      {
+        "id": "6f99afc329d29986",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "12f59ebf8831d7b0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "git/git命令.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a3565565a440a709",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "git/git命令.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e5c0c64e9698624a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "91b95b4c9b55b4de",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "git/git命令.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "ce578a8c47a562e1",
+  "lastOpenFiles": [
+    "linux/ubuntu使用clash代理.md",
+    "linux/unzip指令.md",
+    "git/终端git身份认证.md",
+    "markdown/区块嵌套.md",
+    "markdown/在markdown中插入公式.md",
+    "markdown/在markdown中引入HTML界面.md",
+    "Python/导入子文件夹的.py文件.md",
+    "linux",
+    "git/git回退版本.md",
+    "algorithm/判断数是否是2的幂次.md",
+    "algorithm/冒泡的奇妙应用.md",
+    "algorithm/公平的分配不公平.md",
+    "algorithm/负整数在计算机中的存储.md",
+    "algorithm/asset/对数器实现.png",
+    "git/对github项目修改.md",
+    "git/git命令.md",
+    "Python/pip指令.md",
+    "git",
+    "Python/Conda指令.md",
+    "Python/Conda切换环境报错.md",
+    "Python/装饰器.md",
+    "Python/开启代理时无法使用requests库.md",
+    "Python/查看CUDA版本.md",
+    "Python/asset/requests走代理.png",
+    "Python/asset/requests不走代理.png",
+    "Python/asset",
+    "CSharp/反编译查看汇编源码.md",
+    "CSharp/可空类型.md",
+    "CSharp/命名空间.md",
+    "CSharp/索引器.md",
+    "CSharp/条件运算符（三目运算符）的返回类型.md",
+    "CSharp/事件——类的成员.md",
+    "Python",
+    "CSharp/asset/Pasted image 20231214095757.png",
+    "CSharp/asset/Pasted image 20231127170416.png",
+    "CSharp/asset/Pasted image 20231213161902.png",
+    "CSharp/asset",
+    "algorithm/asset/Pasted image 20231213151900.png",
+    "algorithm/asset",
+    "Unity/asset/Pasted image 20231128172011.png",
+    "Unity/方法",
+    "Unity/asset/Pasted image 20231212170415.png",
+    "Unity/asset/Pasted image 20231128192809.png",
+    "Unity/asset",
+    "asset",
+    "Unity/image"
+  ]
+}
