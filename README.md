@@ -1,2 +1,2 @@
-# Today-I-Learn-TIL-
+# Today-I-Learn(TIL)
 之前在trending上看到一个类似的项目，受到启发于是把我在学习中的知识点进行总结。刚好自己也是🐟的记忆，希望能持续更新加深印象。
