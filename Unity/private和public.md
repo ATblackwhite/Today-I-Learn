@@ -1,0 +1,1 @@
+在Unity中，如果一个变量是public，则会显示在Unity中，相反，如果一个变量是private，则其不会显示在unity中。
