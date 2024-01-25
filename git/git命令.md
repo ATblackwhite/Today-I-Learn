@@ -46,7 +46,7 @@ git merge <另一分支名>
 git branch -d <分支名>
 ```
 
-删除远程仓库分支
+#### 删除远程仓库分支
 ```shell
 git push origin -d <分支名>
 ```

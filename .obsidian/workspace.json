@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git/git命令.md",
+                "file": "markdown/markdown数学公式.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d192a3aca8300bf3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "algorithm/计算整数二进制中的置位数.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "git/git命令.md",
+                "file": "markdown/markdown数学公式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "git/git命令.md",
+                "file": "markdown/markdown数学公式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "git/git命令.md"
+                "file": "markdown/markdown数学公式.md"
               }
             }
           }
@@ -146,22 +158,29 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "dc73afdfb3fdacd9",
+  "active": "ce578a8c47a562e1",
   "lastOpenFiles": [
+    "algorithm/计算整数二进制中的置位数.md",
+    "markdown/markdown数学公式.md",
+    "markdown/在markdown中引入HTML界面.md",
+    "algorithm/负整数在计算机中的存储.md",
     "linux/ubuntu使用clash代理.md",
+    "git/git命令.md",
+    "C++/使用vector创建固定大小二维数组.md",
+    "C++/字符串查找和替换.md",
+    "C++/C++中创建字典(map).md",
+    "C++/climit库.md",
+    "C++/size_t是什么？.md",
     "git/终端git身份认证.md",
     "git/对github项目修改.md",
     "git/git回退版本.md",
-    "git/git命令.md",
     "git",
     "linux/unzip指令.md",
     "linux",
     "markdown/在markdown中插入公式.md",
-    "markdown/在markdown中引入HTML界面.md",
     "markdown/区块嵌套.md",
     "markdown",
     "algorithm/asset/对数器实现.png",
-    "algorithm/负整数在计算机中的存储.md",
     "algorithm/对数器.md",
     "algorithm/单调栈.md",
     "algorithm/判断数是否是2的幂次.md",
@@ -173,9 +192,6 @@
     "algorithm",
     "Unity/方法/查找游戏对象或其组件.md",
     "Unity/方法/OnTriggerEnter(触发器触发方法).md",
-    "Unity/方法/OnCollisionEnter(碰撞触发方法).md",
-    "Unity/方法/Invoke方法.md",
-    "Unity/方法/awake和start的区别.md",
     "Unity/asset/Pasted image 20231212170415.png",
     "Unity/asset/Pasted image 20231212170219.png",
     "Unity/asset/Pasted image 20231128192809.png",
@@ -183,11 +199,7 @@
     "Unity/asset/Pasted image 20231128192521.png",
     "Unity/asset/Pasted image 20231128192301.png",
     "Unity/asset/Pasted image 20231128172011.png",
-    "Unity/预制件.md",
-    "Unity/组件.md",
     "Unity/方法",
-    "Unity/简易物理效果添加.md",
-    "Unity/摄像头跟随.md",
     "Unity/asset",
     "Unity",
     "Python/asset/requests走代理.png",
