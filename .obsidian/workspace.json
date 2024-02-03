@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "markdown/markdown数学公式.md",
+                "file": "Python/torch.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "markdown/markdown数学公式.md",
+                "file": "Python/torch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "markdown/markdown数学公式.md",
+                "file": "Python/torch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "markdown/markdown数学公式.md"
+                "file": "Python/torch.md"
               }
             }
           }
@@ -160,8 +160,11 @@
   },
   "active": "ce578a8c47a562e1",
   "lastOpenFiles": [
-    "algorithm/计算整数二进制中的置位数.md",
+    "Python/tqdm库.md",
+    "Python/torch.md",
+    "Python/pip指令.md",
     "markdown/markdown数学公式.md",
+    "algorithm/计算整数二进制中的置位数.md",
     "markdown/在markdown中引入HTML界面.md",
     "algorithm/负整数在计算机中的存储.md",
     "linux/ubuntu使用clash代理.md",
@@ -188,10 +191,7 @@
     "algorithm/公平的分配不公平.md",
     "algorithm/二分.md",
     "algorithm/asset",
-    "algorithm/0与1之间互相转置.md",
     "algorithm",
-    "Unity/方法/查找游戏对象或其组件.md",
-    "Unity/方法/OnTriggerEnter(触发器触发方法).md",
     "Unity/asset/Pasted image 20231212170415.png",
     "Unity/asset/Pasted image 20231212170219.png",
     "Unity/asset/Pasted image 20231128192809.png",

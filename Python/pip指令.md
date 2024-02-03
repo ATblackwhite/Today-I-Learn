@@ -8,3 +8,8 @@ pip install --upgrade pip
 ```pip
 pip show <library_name>
 ```
+
+#### 临时使用其他源
+```pip
+pip install <package> -i <url>
+```
