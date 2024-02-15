@@ -21,6 +21,8 @@ import os
 os.environ["HTTP_PROXY"] = "http://127.0.0.1:7890"
 os.environ["HTTPS_PROXY"] = "http://127.0.0.1:7890"
 ```
+
+
 ## 使用代理进行git clone
 ```console
 git clone https://github.com/twbs/bootstrap.git --config "http.proxy=127.0.0.1:7890"
@@ -30,5 +32,4 @@ https://link.zhihu.com/?target=https%3A//github.com/sen-ye/linux-clash
 
 引用地址：如何在Linux（Ubuntu）中实现终端代理? - YeThon的回答 - 知乎
 https://www.zhihu.com/question/472418041/answer/3289027461
-<iframe src="https://www.zhihu.com/question/472418041/answer/3289027461" width="800" height="1600"></iframe>
 

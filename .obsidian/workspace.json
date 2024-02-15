@@ -8,30 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ce578a8c47a562e1",
+            "id": "707619272bb5ba83",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/torch.md",
+                "file": "linux/ubuntu使用clash代理.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d192a3aca8300bf3",
+            "id": "42878f04e8011faa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algorithm/计算整数二进制中的置位数.md",
+                "file": "Python/datasets库-huggingface.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 276.5
   },
   "right": {
     "id": "d62009c9b6f271ec",
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/torch.md",
+                "file": "Python/datasets库-huggingface.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/torch.md",
+                "file": "Python/datasets库-huggingface.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/torch.md"
+                "file": "Python/datasets库-huggingface.md"
               }
             }
           }
@@ -158,16 +159,24 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ce578a8c47a562e1",
+  "active": "42878f04e8011faa",
   "lastOpenFiles": [
-    "Python/tqdm库.md",
+    "Python/判断文件夹是否为空.md",
+    "Python/datasets库-huggingface.md",
+    "Python/检查文件夹是否存在，如果不存在创建新文件夹.md",
+    "Python/开启代理时无法使用requests库.md",
+    "linux/ubuntu使用clash代理.md",
+    "Python/os库.md",
+    "Python/查看CUDA版本.md",
+    "linux/查看程序PID.md",
+    "linux/杀死进程.md",
+    "algorithm/计算整数二进制中的置位数.md",
     "Python/torch.md",
+    "Python/tqdm库.md",
     "Python/pip指令.md",
     "markdown/markdown数学公式.md",
-    "algorithm/计算整数二进制中的置位数.md",
     "markdown/在markdown中引入HTML界面.md",
     "algorithm/负整数在计算机中的存储.md",
-    "linux/ubuntu使用clash代理.md",
     "git/git命令.md",
     "C++/使用vector创建固定大小二维数组.md",
     "C++/字符串查找和替换.md",
@@ -180,16 +189,8 @@
     "git",
     "linux/unzip指令.md",
     "linux",
-    "markdown/在markdown中插入公式.md",
-    "markdown/区块嵌套.md",
     "markdown",
     "algorithm/asset/对数器实现.png",
-    "algorithm/对数器.md",
-    "algorithm/单调栈.md",
-    "algorithm/判断数是否是2的幂次.md",
-    "algorithm/冒泡的奇妙应用.md",
-    "algorithm/公平的分配不公平.md",
-    "algorithm/二分.md",
     "algorithm/asset",
     "algorithm",
     "Unity/asset/Pasted image 20231212170415.png",
