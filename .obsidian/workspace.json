@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/datasets库-huggingface.md",
+                "file": "Python/python的深拷贝和浅拷贝.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/datasets库-huggingface.md",
+                "file": "Python/python的深拷贝和浅拷贝.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/datasets库-huggingface.md",
+                "file": "Python/python的深拷贝和浅拷贝.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/datasets库-huggingface.md"
+                "file": "Python/python的深拷贝和浅拷贝.md"
               }
             }
           }
@@ -161,18 +161,21 @@
   },
   "active": "42878f04e8011faa",
   "lastOpenFiles": [
-    "Python/判断文件夹是否为空.md",
+    "Python/装饰器.md",
+    "Python/python的深拷贝和浅拷贝.md",
+    "Python/tqdm库.md",
+    "Python/Conda切换环境报错.md",
     "Python/datasets库-huggingface.md",
+    "linux/ubuntu使用clash代理.md",
+    "Python/判断文件夹是否为空.md",
     "Python/检查文件夹是否存在，如果不存在创建新文件夹.md",
     "Python/开启代理时无法使用requests库.md",
-    "linux/ubuntu使用clash代理.md",
     "Python/os库.md",
     "Python/查看CUDA版本.md",
     "linux/查看程序PID.md",
     "linux/杀死进程.md",
     "algorithm/计算整数二进制中的置位数.md",
     "Python/torch.md",
-    "Python/tqdm库.md",
     "Python/pip指令.md",
     "markdown/markdown数学公式.md",
     "markdown/在markdown中引入HTML界面.md",
@@ -184,10 +187,7 @@
     "C++/climit库.md",
     "C++/size_t是什么？.md",
     "git/终端git身份认证.md",
-    "git/对github项目修改.md",
-    "git/git回退版本.md",
     "git",
-    "linux/unzip指令.md",
     "linux",
     "markdown",
     "algorithm/asset/对数器实现.png",

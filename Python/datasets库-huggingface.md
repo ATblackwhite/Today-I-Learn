@@ -26,7 +26,9 @@ from datasets import load_from_disk
 # 加载先前保存到本地的数据集
 dataset = load_from_disk('./data/my_saved_dataset')
 ```
-### 2. 加载本地文件（如CSV、JSON文件）
+### 2. 加载load_dataset(dataset_name, cache_dir=folder_path)保存的数据集
+当指定保存的cache_dir后，再次调用函数将会从该地址加载数据集
+### 3. 加载本地文件（如CSV、JSON文件）
 
 如果你有本地的CSV或JSON格式的数据文件，可以直接使用`load_dataset`函数加载这些文件：
 ```python
@@ -39,13 +41,15 @@ dataset_csv = load_dataset('csv', data_files='path/to/your/local/file.csv')
 dataset_json = load_dataset('json', data_files='path/to/your/local/file.json')
 ```
 在这个例子中，`data_files`参数指向你的本地文件路径。如果你的数据集分散在多个文件中，你可以将`data_files`设置为文件路径的列表。
-### 3. 加载本地文件夹中的数据集
+### 4. 加载本地文件夹中的数据集
 
 如果你的数据集包含在一个文件夹中，包括多个文件，你也可以将整个文件夹路径传递给`data_files`：
 ```python
 dataset = load_dataset('csv', data_files='path/to/your/dataset_directory/*.csv')
 ```
 这将加载文件夹中所有的CSV文件作为数据集的不同部分。你可以使用通配符（如`*.csv`）来指定要加载的文件类型。
+
+
 
 ## 注意
 
