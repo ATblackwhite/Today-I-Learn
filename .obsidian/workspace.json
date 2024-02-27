@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/检查文件夹是否存在，如果不存在创建新文件夹.md",
+                "file": "git/终端git身份认证.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/检查文件夹是否存在，如果不存在创建新文件夹.md",
+                "file": "git/终端git身份认证.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/检查文件夹是否存在，如果不存在创建新文件夹.md",
+                "file": "git/终端git身份认证.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/检查文件夹是否存在，如果不存在创建新文件夹.md"
+                "file": "git/终端git身份认证.md"
               }
             }
           }
@@ -161,6 +161,28 @@
   },
   "active": "42878f04e8011faa",
   "lastOpenFiles": [
+    "git/git下载.md",
+    "markdown/obsidian中实现淡化字体评论效果.md",
+    "git/git命令.md",
+    "Python/Conda指令.md",
+    "linux/查看磁盘空间.md",
+    "Python/torch.md",
+    "shortcut/vscode.md",
+    "未命名.md",
+    "CSharp/事件——类的成员.md",
+    "shortcut",
+    "math/损失函数ℒ && 拉普拉斯变换 ℒ{f(t)}.md",
+    "math",
+    "Python/pip指令.md",
+    "linux/查看程序PID.md",
+    "linux/杀死进程.md",
+    "linux/检查内核版本.md",
+    "linux/unzip指令.md",
+    "正则表达式/perl正则表达式.md",
+    "linux/ubuntu使用clash代理.md",
+    "正则表达式",
+    "Python/datasets库-huggingface.md",
+    "Python/检查文件夹是否存在，如果不存在创建新文件夹.md",
     "Python/os库.md",
     "Python/math库.md",
     "Python/多行字符串.md",
@@ -168,25 +190,6 @@
     "Python/装饰器.md",
     "Python/tqdm库.md",
     "Python/Conda切换环境报错.md",
-    "Python/datasets库-huggingface.md",
-    "linux/ubuntu使用clash代理.md",
-    "Python/判断文件夹是否为空.md",
-    "Python/检查文件夹是否存在，如果不存在创建新文件夹.md",
-    "Python/开启代理时无法使用requests库.md",
-    "Python/查看CUDA版本.md",
-    "linux/查看程序PID.md",
-    "linux/杀死进程.md",
-    "algorithm/计算整数二进制中的置位数.md",
-    "Python/torch.md",
-    "Python/pip指令.md",
-    "markdown/markdown数学公式.md",
-    "markdown/在markdown中引入HTML界面.md",
-    "algorithm/负整数在计算机中的存储.md",
-    "git/git命令.md",
-    "C++/使用vector创建固定大小二维数组.md",
-    "C++/字符串查找和替换.md",
-    "C++/C++中创建字典(map).md",
-    "C++/climit库.md",
     "git",
     "linux",
     "markdown",
@@ -202,10 +205,7 @@
     "Unity/asset/Pasted image 20231128172011.png",
     "Unity/方法",
     "Unity/asset",
-    "Unity",
     "Python/asset/requests走代理.png",
-    "Python/asset/requests不走代理.png",
-    "Python/asset",
-    "Python"
+    "Python/asset/requests不走代理.png"
   ]
 }

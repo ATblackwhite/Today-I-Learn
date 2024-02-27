@@ -5,6 +5,11 @@ C:\\Users\\{username}\\.conda\\envs
 
 C:\\Users\\{username}\\.conda\\envs\\{env}\\Lib\\site-packages
 
+#### 初始化conda
+```bash
+conda init
+```
+初次安装conda时需先初始化conda
 #### 列出环境列表
 ```shell
 conda env list

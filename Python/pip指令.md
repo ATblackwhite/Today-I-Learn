@@ -13,3 +13,4 @@ pip show <library_name>
 ```pip
 pip install <package> -i <url>
 ```
+清华源url：https://pypi.tuna.tsinghua.edu.cn/simple
