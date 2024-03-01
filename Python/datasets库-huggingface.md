@@ -28,6 +28,7 @@ dataset = load_from_disk('./data/my_saved_dataset')
 ```
 ### 2. 加载load_dataset(dataset_name, cache_dir=folder_path)保存的数据集
 当指定保存的cache_dir后，再次调用函数将会从该地址加载数据集
+tips：使用此方法需保证计算机可访问huggingface
 ### 3. 加载本地文件（如CSV、JSON文件）
 
 如果你有本地的CSV或JSON格式的数据文件，可以直接使用`load_dataset`函数加载这些文件：

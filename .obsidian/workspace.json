@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/PowerShell执行脚本权限被阻止.md",
+                "file": "Python/torch库.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/PowerShell执行脚本权限被阻止.md",
+                "file": "Python/torch库.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/PowerShell执行脚本权限被阻止.md",
+                "file": "Python/torch库.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/PowerShell执行脚本权限被阻止.md"
+                "file": "Python/torch库.md"
               }
             }
           }
@@ -148,8 +148,15 @@
   },
   "active": "60e6baceaeff7ba0",
   "lastOpenFiles": [
+    "linux/打包压缩文件.md",
+    "Python/os库.md",
+    "Python/datasets库-huggingface.md",
+    "linux/ubuntu使用clash代理.md",
     "Python/Conda指令.md",
+    "Python/torch库.md",
+    "other/隐星P15 TA 24开机卡colorful界面.md",
     "Windows/PowerShell执行脚本权限被阻止.md",
+    "other",
     "Python/ctypes库.md",
     "Python/pip指令.md",
     "Python/Conda环境pip镜像源.md",
@@ -165,27 +172,20 @@
     "Windows/CMD.md",
     "Windows/权限.md",
     "Windows",
-    "linux/ubuntu使用clash代理.md",
     "git/终端git身份认证.md",
     "markdown/obsidian中实现淡化字体评论效果.md",
     "git/git命令.md",
     "linux/查看磁盘空间.md",
-    "Python/torch.md",
     "shortcut/vscode.md",
     "CSharp/事件——类的成员.md",
     "shortcut",
-    "math/损失函数ℒ && 拉普拉斯变换 ℒ{f(t)}.md",
     "math",
-    "linux/查看程序PID.md",
-    "linux/杀死进程.md",
-    "linux/检查内核版本.md",
     "正则表达式",
     "git",
     "linux",
     "markdown",
     "algorithm/asset/对数器实现.png",
     "algorithm/asset",
-    "algorithm",
     "Unity/asset/Pasted image 20231212170415.png",
     "Unity/asset/Pasted image 20231212170219.png",
     "Unity/asset/Pasted image 20231128192809.png",

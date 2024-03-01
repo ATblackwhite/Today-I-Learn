@@ -37,3 +37,5 @@ clamped_t = torch.clamp(t, min=0, max=1)
 ```
 
 
+#### torch.cuda.is_available()
+查看torch能否使用cuda
