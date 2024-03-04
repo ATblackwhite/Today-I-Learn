@@ -1,8 +1,8 @@
+**查看安装的cudatoolkit版本**
 ```bash
 nvcc --version
 ```
-或者
+**查看GPU支持的最大CUDA版本**
 ```
 nvidia-smi
 ```
-两条指令都可查看CUDA版本

@@ -33,7 +33,7 @@ conda env export --name 环境名 > environment.yaml
 ```shell
 conda create -n {环境名} python={python版本如：3.9}
 ```
-
+--prefix=安装路径/环境名：用于将环境安装在指定位置
 #### 使用环境
 ```shell
 conda activate {环境名}

@@ -15,18 +15,7 @@ INFO[0000] SOCKS proxy listening at: [::]:7891
 INFO[0000] RESTful API listening at: 127.0.0.1:9090
 ```
 
-## 在Python中使用代理
-```python3
-import os
-os.environ["HTTP_PROXY"] = "http://127.0.0.1:7890"
-os.environ["HTTPS_PROXY"] = "http://127.0.0.1:7890"
-```
 
-
-## 使用代理进行git clone
-```console
-git clone https://github.com/twbs/bootstrap.git --config "http.proxy=127.0.0.1:7890"
-```
 ## 文件下载
 https://link.zhihu.com/?target=https%3A//github.com/sen-ye/linux-clash
 

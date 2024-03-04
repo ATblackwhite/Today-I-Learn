@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/torch库.md",
+                "file": "Python/conda添加镜像源.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/torch库.md",
+                "file": "Python/conda添加镜像源.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/torch库.md",
+                "file": "Python/conda添加镜像源.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/torch库.md"
+                "file": "Python/conda添加镜像源.md"
               }
             }
           }
@@ -148,36 +148,36 @@
   },
   "active": "60e6baceaeff7ba0",
   "lastOpenFiles": [
+    "Python/开启代理时无法使用requests库.md",
+    "Python/numpy库.md",
+    "Python/torch库.md",
+    "Python/Python程序使用代理.md",
+    "git/git使用代理.md",
+    "git/git下载.md",
+    "linux/ubuntu使用clash代理.md",
+    "Python/ctypes库.md",
+    "Python/查看CUDA版本.md",
+    "Python/Conda指令.md",
     "linux/打包压缩文件.md",
+    "正则表达式/perl正则表达式.md",
     "Python/os库.md",
     "Python/datasets库-huggingface.md",
-    "linux/ubuntu使用clash代理.md",
-    "Python/Conda指令.md",
-    "Python/torch库.md",
     "other/隐星P15 TA 24开机卡colorful界面.md",
     "Windows/PowerShell执行脚本权限被阻止.md",
     "other",
-    "Python/ctypes库.md",
     "Python/pip指令.md",
     "Python/Conda环境pip镜像源.md",
-    "Python/开启代理时无法使用requests库.md",
     "Python/conda添加镜像源.md",
     "C++/配置mingw.md",
     "Python/检查文件夹是否存在，如果不存在创建新文件夹.md",
     "Python/math库.md",
     "C++/asset/mingw设置界面.png",
     "C++/asset",
-    "git/git下载.md",
     "markdown/无序列表上下文处理.md",
     "Windows/CMD.md",
     "Windows/权限.md",
     "Windows",
     "git/终端git身份认证.md",
-    "markdown/obsidian中实现淡化字体评论效果.md",
-    "git/git命令.md",
-    "linux/查看磁盘空间.md",
-    "shortcut/vscode.md",
-    "CSharp/事件——类的成员.md",
     "shortcut",
     "math",
     "正则表达式",
