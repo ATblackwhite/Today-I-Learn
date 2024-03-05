@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/conda添加镜像源.md",
+                "file": "other/chatGPT-3.5~4和copilot的逻辑推理能力.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/conda添加镜像源.md",
+                "file": "other/chatGPT-3.5~4和copilot的逻辑推理能力.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/conda添加镜像源.md",
+                "file": "other/chatGPT-3.5~4和copilot的逻辑推理能力.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/conda添加镜像源.md"
+                "file": "other/chatGPT-3.5~4和copilot的逻辑推理能力.md"
               }
             }
           }
@@ -146,8 +146,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "60e6baceaeff7ba0",
+  "active": "dc73afdfb3fdacd9",
   "lastOpenFiles": [
+    "other/asset/cahtGPT-4.png",
+    "other/asset/copilot.png",
+    "other/chatGPT-3.5~4和copilot的逻辑推理能力.md",
+    "other/asset/chatGPT-3.5.png",
+    "other/asset",
+    "Python/conda添加镜像源.md",
     "Python/开启代理时无法使用requests库.md",
     "Python/numpy库.md",
     "Python/torch库.md",
@@ -167,7 +173,6 @@
     "other",
     "Python/pip指令.md",
     "Python/Conda环境pip镜像源.md",
-    "Python/conda添加镜像源.md",
     "C++/配置mingw.md",
     "Python/检查文件夹是否存在，如果不存在创建新文件夹.md",
     "Python/math库.md",
@@ -175,9 +180,7 @@
     "C++/asset",
     "markdown/无序列表上下文处理.md",
     "Windows/CMD.md",
-    "Windows/权限.md",
     "Windows",
-    "git/终端git身份认证.md",
     "shortcut",
     "math",
     "正则表达式",
@@ -185,14 +188,11 @@
     "linux",
     "markdown",
     "algorithm/asset/对数器实现.png",
-    "algorithm/asset",
     "Unity/asset/Pasted image 20231212170415.png",
     "Unity/asset/Pasted image 20231212170219.png",
     "Unity/asset/Pasted image 20231128192809.png",
     "Unity/asset/Pasted image 20231207105806.png",
     "Unity/asset/Pasted image 20231128192521.png",
-    "Unity/asset/Pasted image 20231128192301.png",
-    "Unity/asset/Pasted image 20231128172011.png",
-    "Python/asset/requests走代理.png"
+    "Unity/asset/Pasted image 20231128192301.png"
   ]
 }
