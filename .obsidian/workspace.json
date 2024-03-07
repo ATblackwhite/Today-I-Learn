@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "other/chatGPT-3.5~4和copilot的逻辑推理能力.md",
+                "file": "Python/torch库.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "other/chatGPT-3.5~4和copilot的逻辑推理能力.md",
+                "file": "Python/torch库.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "other/chatGPT-3.5~4和copilot的逻辑推理能力.md",
+                "file": "Python/torch库.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "other/chatGPT-3.5~4和copilot的逻辑推理能力.md"
+                "file": "Python/torch库.md"
               }
             }
           }
@@ -146,11 +146,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "dc73afdfb3fdacd9",
+  "active": "60e6baceaeff7ba0",
   "lastOpenFiles": [
+    "git/git使用代理.md",
+    "other/chatGPT-3.5~4和copilot的逻辑推理能力.md",
     "other/asset/cahtGPT-4.png",
     "other/asset/copilot.png",
-    "other/chatGPT-3.5~4和copilot的逻辑推理能力.md",
     "other/asset/chatGPT-3.5.png",
     "other/asset",
     "Python/conda添加镜像源.md",
@@ -158,7 +159,6 @@
     "Python/numpy库.md",
     "Python/torch库.md",
     "Python/Python程序使用代理.md",
-    "git/git使用代理.md",
     "git/git下载.md",
     "linux/ubuntu使用clash代理.md",
     "Python/ctypes库.md",
@@ -192,7 +192,6 @@
     "Unity/asset/Pasted image 20231212170219.png",
     "Unity/asset/Pasted image 20231128192809.png",
     "Unity/asset/Pasted image 20231207105806.png",
-    "Unity/asset/Pasted image 20231128192521.png",
-    "Unity/asset/Pasted image 20231128192301.png"
+    "Unity/asset/Pasted image 20231128192521.png"
   ]
 }
