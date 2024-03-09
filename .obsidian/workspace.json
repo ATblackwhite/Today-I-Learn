@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/torch库.md",
+                "file": "Python/datasets库-huggingface.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/torch库.md",
+                "file": "Python/datasets库-huggingface.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/torch库.md",
+                "file": "Python/datasets库-huggingface.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/torch库.md"
+                "file": "Python/datasets库-huggingface.md"
               }
             }
           }
@@ -148,8 +148,13 @@
   },
   "active": "60e6baceaeff7ba0",
   "lastOpenFiles": [
-    "git/git使用代理.md",
+    "Python/torch库.md",
+    "shortcut/vscode.md",
+    "Python/Python程序使用代理.md",
+    "Python/python的深拷贝和浅拷贝.md",
     "other/chatGPT-3.5~4和copilot的逻辑推理能力.md",
+    "other/edge浏览器登陆微软账户失败.md",
+    "git/git使用代理.md",
     "other/asset/cahtGPT-4.png",
     "other/asset/copilot.png",
     "other/asset/chatGPT-3.5.png",
@@ -157,8 +162,6 @@
     "Python/conda添加镜像源.md",
     "Python/开启代理时无法使用requests库.md",
     "Python/numpy库.md",
-    "Python/torch库.md",
-    "Python/Python程序使用代理.md",
     "git/git下载.md",
     "linux/ubuntu使用clash代理.md",
     "Python/ctypes库.md",
@@ -178,8 +181,6 @@
     "Python/math库.md",
     "C++/asset/mingw设置界面.png",
     "C++/asset",
-    "markdown/无序列表上下文处理.md",
-    "Windows/CMD.md",
     "Windows",
     "shortcut",
     "math",

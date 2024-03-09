@@ -69,3 +69,13 @@ clamped_t = torch.clamp(t, min=0, max=1)
 - 在调用 `optimizer.step()` 之前，通常需要先调用 `optimizer.zero_grad()` 来清除累积的梯度，以防止在每次更新时梯度被累加。
 - 参数更新步骤（`optimizer.step()`）不会自动清除梯度，因此在下一次反向传播前，需要手动清除旧的梯度。
 - 选择合适的优化器和学习率对于训练过程非常重要，因为它们直接影响到模型训练的速度和质量。
+#### torch.nonzero()
+PyTorch中的`nonzero()`方法是一个非常有用的函数，它用于获取张量中所有非零元素的索引。这个方法通常在你想知道哪些元素满足特定条件（例如，不等于零）时非常有用。`nonzero`返回的是一个索引的张量，每行都包含原始张量中非零元素的索引。
+```python
+# 创建一个张量 
+tensor = torch.tensor([[0, 1, 0], [2, 0, 2], [0, 0, 0]]) 
+# 使用nonzero方法找到非零元素的索引 
+nonzero_indices = torch.nonzero(tensor)
+# 或者
+nonzero_indices = tensor.nonzero()
+```

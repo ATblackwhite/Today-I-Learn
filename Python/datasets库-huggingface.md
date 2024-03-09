@@ -52,7 +52,51 @@ dataset = load_dataset('csv', data_files='path/to/your/dataset_directory/*.csv')
 
 
 
-## 注意
+### 注意
 
 - 确保文件路径正确，且Python有足够的权限访问这些文件。
 - 使用`load_dataset`加载本地文件时，可能需要根据你的数据格式提供额外的参数，如`split`定义数据集的拆分（例如`train`、`test`），或者在加载JSON文件时使用`field`参数指定哪些字段应被加载为数据集的列。
+
+
+## 筛选数据
+### filter()
+`filter`方法使你能够按照一定的条件从数据集中筛选出子集。这个方法接受一个函数作为参数，这个函数定义了筛选条件，应用于数据集的每个元素。如果函数返回`True`，则该元素会被包含在最终的筛选结果中；如果返回`False`，则不会被包含。
+```python
+# 定义筛选条件函数 
+def is_long(example): 
+# 假设数据集中的每个条目都有一个"text"字段 
+	return len(example["text"]) > 100 
+# 使用filter方法筛选出长文本 
+long_texts = dataset.filter(is_long)
+# 或者直接
+long_texts = dataset.filter(lambda x: len(x['text']) > 100)
+```
+#### 注意事项
+
+- `filter`方法在处理非常大的数据集时非常高效，因为它采用了懒加载（lazy loading）机制，意味着数据不会全部加载到内存中，而是在需要时才被加载和处理。
+- 确保传递给`filter`方法的函数接受一个参数，这个参数代表数据集中的一个元素（通常是一个字典），并且返回一个布尔值。
+- 使用`filter`方法筛选出的结果仍然是一个`datasets.Dataset`对象，这意味着你可以在此基础上继续使用`datasets`库提供的其他方法和功能。
+
+`filter`方法是数据预处理阶段的一个强大工具，能够帮助你根据特定条件快速地减少数据集的大小或者提取出对特定任务更有价值的数据子集。
+### select()
+如果你想从`datasets`库中的数据集中筛选出指定下标的数据，可以使用`select`方法。与`filter`方法不同，`select`直接根据数据项的索引来选择数据，这使得根据索引筛选数据变得非常直接和高效。
+```python
+from datasets import load_dataset
+
+# 假设我们已经有一个加载好的数据集
+dataset = load_dataset("text", data_files="your_data_file.txt")
+
+# 定义要选择的数据项的索引列表
+indices_to_select = [0, 10, 20, 30]
+
+# 使用select方法筛选出这些索引对应的数据项
+selected_data = dataset.select(indices_to_select)
+```
+#### 注意事项
+
+- `select`方法返回的结果是一个新的`datasets.Dataset`实例，包含了原始数据集中所有被选中的项。
+- 你提供给`select`方法的索引列表中的每个索引都应该是有效的，即它们应该在原始数据集的索引范围内。如果索引无效（例如，太大或负数），将会抛出错误。
+- 这种方法在你需要根据特定的索引选择数据，如进行交叉验证或创建定制的数据拆分时非常有用。
+
+使用`select`方法可以非常方便地根据索引来操作数据集，无论是进行数据探索、实验的初步设置，还是执行更复杂的数据处理流程。
+## 数据处理
