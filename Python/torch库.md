@@ -79,3 +79,42 @@ nonzero_indices = torch.nonzero(tensor)
 # 或者
 nonzero_indices = tensor.nonzero()
 ```
+#### torch.randint()
+```python
+import torch
+# 定义矩阵的尺寸，例如3x3
+rows, cols = 3, 3
+# 生成随机0或1的矩阵
+matrix = torch.randint(0, 2, (rows, cols))
+```
+#### torch.squeeze(x)
+在PyTorch中，`squeeze`方法同样用于移除张量中所有长度为1的维度。如果指定了维度参数，则仅尝试移除该维度；如果该维度的长度不是1，则张量不会发生变化
+```python
+import torch
+x = torch.zeros(1, 3, 1)
+print(x.size())  # 输出: torch.Size([1, 3, 1])
+x_squeezed = torch.squeeze(x)
+print(x_squeezed.size())  # 输出: torch.Size([3])
+```
+
+#### torch.Tensor.unsqueeze(dim)
+`unsqueeze`方法用于在指定位置添加一个长度为1的维度：
+```python
+import torch
+x = torch.tensor([1, 2, 3])
+print(x.size())  # 输出: torch.Size([3])
+# 在第0轴前添加一个维度
+x_unsqueezed = x.unsqueeze(0)
+print(x_unsqueezed.size())  # 输出: torch.Size([1, 3])
+# 在第1轴后添加一个维度
+x_unsqueezed = x.unsqueeze(1)
+print(x_unsqueezed.size())  # 输出: torch.Size([3, 1])
+```
+#### 张量拼接
+##### torch.cat()
+如果你想要在现有的维度上合并张量，而不是添加一个新的维度，你可以使用`torch.cat`。
+##### torch.stack()
+`torch.stack`函数会沿着一个新的维度合并张量列表，这意味着所有张量必须有完全相同的形状。
+##### 选择`stack`还是`cat`
+- 如果你想在所有张量上添加一个新的维度，使用`torch.stack`。
+- 如果你想在某个现有的维度上合并张量，使得该维度的大小增加，使用`torch.cat`。

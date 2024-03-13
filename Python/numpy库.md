@@ -18,3 +18,40 @@ mean()函数功能：求取均值
 - frequency weights:一维数组，代表每个观测要重复的次数（相当于给观测赋予权重）
 - analytic weights:一维数组，代表观测矢量权重。对于被认为“重要”的观察,这些相对权重通常很大,而对于被认为不太重要的观察,这些相对权重较小。如果ddof = 0,则可以使用权重数组将概率分配给观测向量。
 详解地址：[http://t.csdnimg.cn/ASYeq]
+
+#### random
+numpy生成随机数矩阵
+##### randint()
+```python
+import numpy as np 
+# 定义矩阵的尺寸，例如3x3 
+rows, cols = 3, 3 
+# 生成随机0或1的矩阵 
+matrix = np.random.randint(0, 2, size=(rows, cols))
+```
+#### squeeze(x)
+在Python的NumPy库中，`squeeze`方法可以移除数组中所有长度为1的轴：
+```python
+import numpy as np
+x = np.array([[[1], [2], [3]]])
+print(x.shape)  # 输出: (1, 3, 1)
+x_squeezed = np.squeeze(x)
+print(x_squeezed.shape)  # 输出: (3,)
+```
+
+#### expand_dims(x, axis)
+类似于torch中的unsqueeze
+```python
+import numpy as np
+
+x = np.array([1, 2, 3])
+print(x.shape)  # 输出: (3,)
+# 在第一个轴（0轴）前添加一个维度
+x_unsqueezed = np.expand_dims(x, axis=0)
+print(x_unsqueezed.shape)  # 输出: (1, 3)
+# 在第二个轴（1轴）后添加一个维度
+x_unsqueezed = np.expand_dims(x, axis=1)
+print(x_unsqueezed.shape)  # 输出: (3, 1)
+```
+#### array()
+可以将PIL(pillow)对象以及list(内仅包含数字)转换为numpy数组
