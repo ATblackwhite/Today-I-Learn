@@ -100,3 +100,13 @@ selected_data = dataset.select(indices_to_select)
 
 使用`select`方法可以非常方便地根据索引来操作数据集，无论是进行数据探索、实验的初步设置，还是执行更复杂的数据处理流程。
 ## 数据处理
+许多处理过程都围绕着dataset强大的map方法展开
+### 添加新的一列数据
+我们可以通过map方法为数据集添加一列新数据，例如：
+```python
+def add_column(example):
+	new_column = str
+	return {'new_column': new_column}
+
+updated_dataset = dataset.map(add_column)
+```

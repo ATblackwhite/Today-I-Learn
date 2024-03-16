@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Python程序使用代理.md",
+                "file": "Python/matplotlib库.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Python程序使用代理.md",
+                "file": "Python/matplotlib库.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Python程序使用代理.md",
+                "file": "Python/matplotlib库.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Python程序使用代理.md"
+                "file": "Python/matplotlib库.md"
               }
             }
           }
@@ -148,15 +148,28 @@
   },
   "active": "60e6baceaeff7ba0",
   "lastOpenFiles": [
-    "linux/查看磁盘空间.md",
-    "Python/numpy库.md",
-    "Python/datasets库-huggingface.md",
-    "linux/ubuntu使用clash代理.md",
-    "Python/Python程序使用代理.md",
     "Python/torch库.md",
-    "Python/tqdm库.md",
-    "Python/python的深拷贝和浅拷贝.md",
+    "Python/matplotlib库.md",
+    "Python/numpy库.md",
+    "Python/json库.md",
+    "Python/datasets库-huggingface.md",
     "shortcut/vscode.md",
+    "Python/写入文件.md",
+    "Python/多行字符串.md",
+    "Python/导入子文件夹的.py文件.md",
+    "正则表达式/Python正则表达式库re.md",
+    "正则表达式/perl正则表达式.md",
+    "Python/list中extend和append的区别.md",
+    "Python/tqdm库.md",
+    "Python/Conda指令.md",
+    "Python/Conda环境pip镜像源.md",
+    "Python/Conda添加镜像源.md",
+    "Python/Conda切换环境报错.md",
+    "Python/ctypes库.md",
+    "Python/Python程序使用代理.md",
+    "linux/查看磁盘空间.md",
+    "linux/ubuntu使用clash代理.md",
+    "Python/python的深拷贝和浅拷贝.md",
     "other/chatGPT-3.5~4和copilot的逻辑推理能力.md",
     "other/edge浏览器登陆微软账户失败.md",
     "git/git使用代理.md",
@@ -164,21 +177,8 @@
     "other/asset/copilot.png",
     "other/asset/chatGPT-3.5.png",
     "other/asset",
-    "Python/conda添加镜像源.md",
     "Python/开启代理时无法使用requests库.md",
-    "git/git下载.md",
-    "Python/ctypes库.md",
-    "Python/查看CUDA版本.md",
-    "Python/Conda指令.md",
-    "linux/打包压缩文件.md",
-    "正则表达式/perl正则表达式.md",
-    "Python/os库.md",
-    "other/隐星P15 TA 24开机卡colorful界面.md",
-    "Windows/PowerShell执行脚本权限被阻止.md",
     "other",
-    "Python/pip指令.md",
-    "Python/Conda环境pip镜像源.md",
-    "C++/配置mingw.md",
     "C++/asset/mingw设置界面.png",
     "C++/asset",
     "Windows",
