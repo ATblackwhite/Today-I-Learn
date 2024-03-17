@@ -110,3 +110,12 @@ def add_column(example):
 
 updated_dataset = dataset.map(add_column)
 ```
+
+### 删除一列数据
+#### remove_column()
+使用`remove_column()`方法来删除列，示例：
+```python
+column_to_remove = ['column1', 'column2']
+# 直接移除不需要的列 
+trimmed_dataset = dataset.remove_columns(columns_to_remove)
+```

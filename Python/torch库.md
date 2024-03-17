@@ -78,6 +78,8 @@ tensor = torch.tensor([[0, 1, 0], [2, 0, 2], [0, 0, 0]])
 nonzero_indices = torch.nonzero(tensor)
 # 或者
 nonzero_indices = tensor.nonzero()
+
+#结果为[[0, 1], [1, 0], [1, 2]]
 ```
 #### torch.randint()
 ```python
