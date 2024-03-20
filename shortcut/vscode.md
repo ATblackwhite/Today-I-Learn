@@ -14,4 +14,5 @@
 `Ctrl` + `[` / `Ctrl` + `]`
 #### 删除整行
 `Ctrl` + `Shift` + `K`
-
+#### 全文件查找
+`Ctrl` + `Shift` + `F`

@@ -1,4 +1,17 @@
+#### torch.tensor()
+在PyTorch中，可以使用`torch.tensor()`函数将列表转换为张量。这个函数接受一个数据列表作为输入，并返回一个包含这些数据的PyTorch张量。这里是一个简单的例子：
+```python
+import torch
 
+# 定义一个列表
+list_data = [1, 2, 3, 4, 5]
+
+# 将列表转换为张量
+tensor_data = torch.tensor(list_data)
+
+print(tensor_data)
+```
+在这个例子中，`list_data`是一个包含整数的列表，使用`torch.tensor()`函数将其转换为一个PyTorch张量`tensor_data`。打印出来的`tensor_data`将显示其内容和张量类型。
 #### torch.no_grad()
 **`with torch.no_grad():`**：这是一个上下文管理器，用于临时禁用梯度计算。在 PyTorch 中，`.grad` 属性默认会跟踪所有的操作，以便在反向传播时计算梯度。但在进行模型推理（即模型评估或预测时），我们不需要计算梯度。使用 `torch.no_grad()` 可以减少内存消耗并加速计算，因为它告诉 PyTorch 不用保存操作的中间结果和计算梯度。
 

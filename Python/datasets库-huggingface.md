@@ -119,3 +119,6 @@ column_to_remove = ['column1', 'column2']
 # 直接移除不需要的列 
 trimmed_dataset = dataset.remove_columns(columns_to_remove)
 ```
+#### map()
+map方法是datasets中强大的方法，它可以处理数据集中的数据
+- `with_indices` 通过设置`map`方法的`with_indices=True`，你可以在函数内部访问每个样本的下标。此时自定义函数接收两个参数：`example`和`index`
