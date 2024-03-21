@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/datasets库-huggingface.md",
+                "file": "Python/Scikit-Learn库.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/datasets库-huggingface.md",
+                "file": "Python/Scikit-Learn库.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/datasets库-huggingface.md",
+                "file": "Python/Scikit-Learn库.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/datasets库-huggingface.md"
+                "file": "Python/Scikit-Learn库.md"
               }
             }
           }
@@ -148,6 +148,9 @@
   },
   "active": "60e6baceaeff7ba0",
   "lastOpenFiles": [
+    "Python/torch保存~加载模型.md",
+    "Python/Scikit-Learn库.md",
+    "Python/datasets库-huggingface.md",
     "Python/torch库.md",
     "Python/next()方法已废弃.md",
     "shortcut/vscode.md",
@@ -162,7 +165,6 @@
     "DeepLearning/MixMatch.md",
     "DeepLearning/蒸馏.md",
     "DeepLearning/Temperature Shapening.md",
-    "Python/datasets库-huggingface.md",
     "DeepLearning",
     "Python/numpy库.md",
     "Python/matplotlib库.md",
@@ -174,8 +176,6 @@
     "正则表达式/perl正则表达式.md",
     "Python/list中extend和append的区别.md",
     "Python/tqdm库.md",
-    "Python/Conda指令.md",
-    "Python/Conda环境pip镜像源.md",
     "other/asset/cahtGPT-4.png",
     "other/asset/copilot.png",
     "other/asset/chatGPT-3.5.png",
