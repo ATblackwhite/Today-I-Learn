@@ -72,3 +72,7 @@ print(x_unsqueezed.shape)  # 输出: (3, 1)
 - `out`：用于存放结果的数组。如果提供了该参数，则其形状必须足够大以容纳输出结果。
 #### transpose()
 交换数组的维度
+#### intersect1d()
+查找两个数组之间相同元素
+#### ndarray.tolist()
+使numpy数组转换为list

@@ -2,7 +2,8 @@ python使用re库来用正则表达式匹配字符串
 ```python
 import re
 pattern = re.compile(exp)
-content = pattern.findall(string)
+content = pattern.findall(string) # 选出字符串中符合正则表达式的部分
+replaced_text = re.sub(pattern, word, text) # 替换字符串中符合正则表达式的部分
 ```
 
 python正则表达式内容与大多数都相同
