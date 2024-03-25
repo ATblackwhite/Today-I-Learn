@@ -34,6 +34,8 @@
         - 调用 `loss.backward()` 进行反向传播以计算梯度。
         - 调用 `optimizer.step()` 更新模型的参数。
         - 使用 `optimizer.zero_grad()` 清除梯度，为下一次迭代准备。
+### optimizer.step()
+`optimizer.step()` 方法是在 PyTorch 中用于更新模型参数的方法，是模型训练过程中梯度下降（或其他优化算法）的关键步骤。这个方法应用在一个优化器对象上，比如 SGD、Adam 等，这些优化器都是 `torch.optim` 包的一部分。`optimizer.step()` 被调用时，它会根据优化器已经存储的梯度来更新其管理的参数。
 
 ### 总结
 

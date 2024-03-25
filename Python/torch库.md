@@ -1,3 +1,4 @@
+pytorch基础：(https://transformers.run/c2/2021-12-14-transformers-note-3/)
 #### torch.tensor()
 在PyTorch中，可以使用`torch.tensor()`函数将列表转换为张量。这个函数接受一个数据列表作为输入，并返回一个包含这些数据的PyTorch张量。这里是一个简单的例子：
 ```python
@@ -14,23 +15,6 @@ print(tensor_data)
 在这个例子中，`list_data`是一个包含整数的列表，使用`torch.tensor()`函数将其转换为一个PyTorch张量`tensor_data`。打印出来的`tensor_data`将显示其内容和张量类型。
 #### torch.no_grad()
 **`with torch.no_grad():`**：这是一个上下文管理器，用于临时禁用梯度计算。在 PyTorch 中，`.grad` 属性默认会跟踪所有的操作，以便在反向传播时计算梯度。但在进行模型推理（即模型评估或预测时），我们不需要计算梯度。使用 `torch.no_grad()` 可以减少内存消耗并加速计算，因为它告诉 PyTorch 不用保存操作的中间结果和计算梯度。
-
-#### torch.cat
-在 PyTorch 中，可以使用`torch.cat()`函数拼接张量
-```python
-import torch
-
-# 示例张量
-tensor1 = torch.rand(2, 3)  # 形状为 [2, 3]
-tensor2 = torch.rand(2, 2)  # 形状为 [2, 2]
-
-# 沿着水平方向（第二维）拼接它们
-result = torch.cat((tensor1, tensor2), dim=1)
-
-print(result)
-print("Result shape:", result.shape)
-```
-
 #### 变量复制转移
 1. 使用`.to()`方法
 ```python
@@ -72,8 +56,7 @@ clamped_t = torch.clamp(t, min=0, max=1)
 #### torch.randperm(n)
 `torch.randperm(n)` 是 PyTorch 中的一个函数，用于生成一个从 `0` 到 `n-1` 的随机排列。这个函数返回一个包含 `0` 到 `n-1` 所有整数的一维张量，这些整数被随机排列。该方法常用于生成乱序索引，可以用于乱序遍历数组或将数据集分割为训练集和测试集等场景。
 
-#### optimizer.step()
-`optimizer.step()` 方法是在 PyTorch 中用于更新模型参数的方法，是模型训练过程中梯度下降（或其他优化算法）的关键步骤。这个方法应用在一个优化器对象上，比如 SGD、Adam 等，这些优化器都是 `torch.optim` 包的一部分。`optimizer.step()` 被调用时，它会根据优化器已经存储的梯度来更新其管理的参数。
+
 ##### 工作原理
 1. **前向传播**：计算模型的输出，并根据预测结果和真实结果计算损失（loss）。
 2. **反向传播**：调用损失张量的 `.backward()` 方法来计算模型参数（weights 和 biases）的梯度。
@@ -128,8 +111,55 @@ print(x_unsqueezed.size())  # 输出: torch.Size([3, 1])
 #### 张量拼接
 ##### torch.cat()
 如果你想要在现有的维度上合并张量，而不是添加一个新的维度，你可以使用`torch.cat`。
+```python
+import torch
+
+# 示例张量
+tensor1 = torch.rand(2, 3)  # 形状为 [2, 3]
+tensor2 = torch.rand(2, 2)  # 形状为 [2, 2]
+
+# 沿着水平方向（第二维）拼接它们
+result = torch.cat((tensor1, tensor2), dim=1)
+
+print(result)
+print("Result shape:", result.shape)
+```
 ##### torch.stack()
 `torch.stack`函数会沿着一个新的维度合并张量列表，这意味着所有张量必须有完全相同的形状。
 ##### 选择`stack`还是`cat`
 - 如果你想在所有张量上添加一个新的维度，使用`torch.stack`。
 - 如果你想在某个现有的维度上合并张量，使得该维度的大小增加，使用`torch.cat`。
+
+#### torch.Tensor.argmax()
+`tensor.argmax()` 是一个在深度学习和数值计算库中常见的方法，如PyTorch、TensorFlow等。这个方法用于找到张量（tensor）中最大元素的索引。
+
+具体来说，`argmax()` 方法会沿着指定的维度（如果有的话）遍历张量，并返回最大元素的索引。如果没有指定维度，它通常会在整个张量上操作，并返回单个最大元素的索引。
+
+### 参数
+
+- **axis**（或某些库中的`dim`）: 你想在哪个维度上寻找最大值。如果未指定，`argmax()` 会在张量的全部元素中寻找最大值。
+- **keepdims**（可选）: 是否保持输出的维度与输入相同。如果设置为`True`，输出将保持与原始张量相同的维度，但所有非操作轴上的维度大小都会是1。
+
+### 返回值
+
+- 返回最大元素的索引。如果`axis`指定了维度，则返回在该维度上每个切片的最大元素的索引的张量。
+
+### 示例
+
+假设我们有一个PyTorch的张量示例：
+```python
+import torch
+
+# 创建一个2x3的张量
+tensor = torch.tensor([[1, 2, 3], [4, 5, 6]])
+
+# 沿着维度0找到最大值的索引
+index = tensor.argmax(dim=0)
+
+# 沿着维度1找到最大值的索引
+index_along_dim1 = tensor.argmax(dim=1)
+
+print(index)  # 输出: tensor([1, 1, 1])
+print(index_along_dim1)  # 输出: tensor([2, 2])
+```
+在这个例子中，`argmax(dim=0)` 沿第一个维度找到最大值，结果表明每列的最大值都在第二行。`argmax(dim=1)` 沿第二个维度找到最大值，结果表明每行的最大值都在第三列。
