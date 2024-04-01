@@ -12,6 +12,7 @@ conda config --set show_channel_urls yes
 conda config --add channels https://mirrors.ustc.edu.cn/anaconda/pkgs/main/
 conda config --set show_channel_urls yes
 ```
+tips：可在`C:/user/user_name/`下查看`.condarc`文件
 
 ### 查看当前配置
 ```bash

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4ec1e956c560f78f",
+        "id": "36d2c89a8c582b75",
         "type": "tabs",
         "children": [
           {
-            "id": "60e6baceaeff7ba0",
+            "id": "c82750221089a2ce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux/打包(解压)压缩文件.md",
+                "file": "Python/pip指令.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux/打包(解压)压缩文件.md",
+                "file": "Python/pip指令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux/打包(解压)压缩文件.md",
+                "file": "Python/pip指令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux/打包(解压)压缩文件.md"
+                "file": "Python/pip指令.md"
               }
             }
           }
@@ -146,36 +146,39 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "60e6baceaeff7ba0",
+  "active": "c82750221089a2ce",
   "lastOpenFiles": [
+    "Python/Conda添加镜像源.md",
+    "Python/Conda环境pip镜像源.md",
+    "Python/Python程序使用代理.md",
+    "Python/开启代理时无法使用requests库.md",
+    "LaTex/标签.md",
+    "linux/打包(解压)压缩文件.md",
+    "未命名",
+    "linux/查看内存大小.md",
+    "linux/查看磁盘空间.md",
+    "Python/读写文件.md",
+    "Docker/Docker命令大全.md",
+    "vim/vim命令大全.md",
+    "vim",
+    "Python/查看CUDA版本.md",
+    "Docker",
     "linux/unzip指令.md",
+    "linux/ubuntu使用clash代理.md",
+    "Python/torch.backends.cudnn.md",
+    "Python/torch库.md",
     "Python/numpy库.md",
     "shortcut/notebook.md",
     "shortcut/vscode.md",
-    "Python/torch库.md",
     "Python/datasets库-huggingface.md",
     "正则表达式/Python正则表达式库re.md",
     "Python/torch.utils.data.DataLoader.md",
     "Python/torch.optim.md",
-    "linux/打包(解压)压缩文件.md",
     "linux/检查内核版本.md",
     "LaTex/安装LaTex.md",
     "LaTex",
     "other/edge浏览器登陆微软账户失败.md",
-    "Python/Scikit-Learn库.md",
-    "Python/torch保存~加载模型.md",
-    "Python/next()方法已废弃.md",
-    "Python/sklearn库.md",
-    "DeepLearning/SemiLoss.md",
-    "Python/torch.backends.cudnn.md",
-    "DeepLearning/MixMatch.md",
-    "DeepLearning/蒸馏.md",
-    "DeepLearning/Temperature Shapening.md",
     "DeepLearning",
-    "Python/matplotlib库.md",
-    "Python/json库.md",
-    "Python/写入文件.md",
-    "Python/多行字符串.md",
     "other/asset/cahtGPT-4.png",
     "other/asset/copilot.png",
     "other/asset/chatGPT-3.5.png",
@@ -185,9 +188,6 @@
     "C++/asset",
     "Windows",
     "shortcut",
-    "math",
-    "正则表达式",
-    "git",
     "algorithm/asset/对数器实现.png",
     "Unity/asset/Pasted image 20231212170415.png",
     "Unity/asset/Pasted image 20231212170219.png",

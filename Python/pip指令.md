@@ -20,3 +20,8 @@ pip install <package> -i <url>
 pip search <package>
 ```
 PyPI已不支持此命令 Please use https://pypi.org/search (via a browser)
+
+#### 使用.whl文件离线安装
+```bash
+python -m pip install --no-index --find-links . <package_name>
+```
