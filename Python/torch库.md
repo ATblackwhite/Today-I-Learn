@@ -34,9 +34,6 @@ clamped_t = torch.clamp(t, min=0, max=1)
 ```
 
 
-#### torch.cuda.is_available()
-查看torch能否使用cuda
-
 #### torch.Tensor.scatter_(dim, index, src)
 - **dim** (int)：是要散布的维度。
 - **index** (LongTensor)：包含要散布到的索引。

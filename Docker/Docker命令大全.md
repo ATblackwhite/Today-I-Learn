@@ -51,3 +51,13 @@
 - **--expose=[]:** 开放一个端口或一组端口；
 - **--volume , -v:** 绑定一个卷
 - **--gpus:** 容器能访问GPU
+
+#### 启动容器：start
+```bash
+docker start <container_name>
+```
+
+#### 进入容器终端：attach
+```shell
+docker attach <container_name>
+```

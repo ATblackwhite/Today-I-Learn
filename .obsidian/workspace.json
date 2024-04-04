@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/pip指令.md",
+                "file": "Python/torch保存~加载模型.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "113075670608adb2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docker/Docker命令大全.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/pip指令.md",
+                "file": "Docker/Docker命令大全.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/pip指令.md",
+                "file": "Docker/Docker命令大全.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/pip指令.md"
+                "file": "Docker/Docker命令大全.md"
               }
             }
           }
@@ -146,17 +159,22 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "c82750221089a2ce",
+  "active": "113075670608adb2",
   "lastOpenFiles": [
+    "Python/torch.nn.md",
+    "Python/torch保存~加载模型.md",
+    "Python/torch库.md",
+    "Python/torch.cuda.md",
+    "未命名",
+    "linux/查看磁盘空间.md",
+    "Python/pip指令.md",
     "Python/Conda添加镜像源.md",
     "Python/Conda环境pip镜像源.md",
     "Python/Python程序使用代理.md",
     "Python/开启代理时无法使用requests库.md",
     "LaTex/标签.md",
     "linux/打包(解压)压缩文件.md",
-    "未命名",
     "linux/查看内存大小.md",
-    "linux/查看磁盘空间.md",
     "Python/读写文件.md",
     "Docker/Docker命令大全.md",
     "vim/vim命令大全.md",
@@ -166,18 +184,13 @@
     "linux/unzip指令.md",
     "linux/ubuntu使用clash代理.md",
     "Python/torch.backends.cudnn.md",
-    "Python/torch库.md",
     "Python/numpy库.md",
     "shortcut/notebook.md",
     "shortcut/vscode.md",
     "Python/datasets库-huggingface.md",
     "正则表达式/Python正则表达式库re.md",
     "Python/torch.utils.data.DataLoader.md",
-    "Python/torch.optim.md",
-    "linux/检查内核版本.md",
-    "LaTex/安装LaTex.md",
     "LaTex",
-    "other/edge浏览器登陆微软账户失败.md",
     "DeepLearning",
     "other/asset/cahtGPT-4.png",
     "other/asset/copilot.png",
