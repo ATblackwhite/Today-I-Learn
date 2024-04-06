@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Docker命令大全.md",
+                "file": "linux/ubuntu使用clash代理.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Docker命令大全.md",
+                "file": "linux/ubuntu使用clash代理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker/Docker命令大全.md",
+                "file": "linux/ubuntu使用clash代理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Docker命令大全.md"
+                "file": "linux/ubuntu使用clash代理.md"
               }
             }
           }
@@ -161,7 +161,11 @@
   },
   "active": "113075670608adb2",
   "lastOpenFiles": [
+    "Python/Python程序使用代理.md",
+    "Python/开启代理时无法使用requests库.md",
+    "Python/os库.md",
     "Python/torch.nn.md",
+    "Docker/Docker命令大全.md",
     "Python/torch保存~加载模型.md",
     "Python/torch库.md",
     "Python/torch.cuda.md",
@@ -170,13 +174,10 @@
     "Python/pip指令.md",
     "Python/Conda添加镜像源.md",
     "Python/Conda环境pip镜像源.md",
-    "Python/Python程序使用代理.md",
-    "Python/开启代理时无法使用requests库.md",
     "LaTex/标签.md",
     "linux/打包(解压)压缩文件.md",
     "linux/查看内存大小.md",
     "Python/读写文件.md",
-    "Docker/Docker命令大全.md",
     "vim/vim命令大全.md",
     "vim",
     "Python/查看CUDA版本.md",
@@ -189,7 +190,6 @@
     "shortcut/vscode.md",
     "Python/datasets库-huggingface.md",
     "正则表达式/Python正则表达式库re.md",
-    "Python/torch.utils.data.DataLoader.md",
     "LaTex",
     "DeepLearning",
     "other/asset/cahtGPT-4.png",
