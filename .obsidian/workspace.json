@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/torch保存~加载模型.md",
+                "file": "Python/torch.nn.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0915c7c627156481",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/torch.Tensor.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux/ubuntu使用clash代理.md",
+                "file": "Python/torch库.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux/ubuntu使用clash代理.md",
+                "file": "Python/torch.Tensor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux/ubuntu使用clash代理.md",
+                "file": "Python/torch.Tensor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux/ubuntu使用clash代理.md"
+                "file": "Python/torch.Tensor.md"
               }
             }
           }
@@ -159,37 +171,38 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "113075670608adb2",
+  "active": "0915c7c627156481",
   "lastOpenFiles": [
+    "Python/torch库.md",
+    "Python/torch.Tensor.md",
+    "markdown/markdown数学公式.md",
+    "Python/torch.nn.md",
+    "未命名",
+    "word/插入引用文献.md",
+    "word",
+    "Docker/Docker命令大全.md",
+    "linux/查看内存大小.md",
+    "DeepLearning/激活函数.md",
+    "DeepLearning/SemiLoss.md",
+    "linux/查看磁盘空间.md",
+    "Python/torch保存~加载模型.md",
     "Python/Python程序使用代理.md",
+    "linux/ubuntu使用clash代理.md",
     "Python/开启代理时无法使用requests库.md",
     "Python/os库.md",
-    "Python/torch.nn.md",
-    "Docker/Docker命令大全.md",
-    "Python/torch保存~加载模型.md",
-    "Python/torch库.md",
     "Python/torch.cuda.md",
-    "未命名",
-    "linux/查看磁盘空间.md",
     "Python/pip指令.md",
     "Python/Conda添加镜像源.md",
     "Python/Conda环境pip镜像源.md",
     "LaTex/标签.md",
     "linux/打包(解压)压缩文件.md",
-    "linux/查看内存大小.md",
     "Python/读写文件.md",
     "vim/vim命令大全.md",
     "vim",
     "Python/查看CUDA版本.md",
     "Docker",
     "linux/unzip指令.md",
-    "linux/ubuntu使用clash代理.md",
     "Python/torch.backends.cudnn.md",
-    "Python/numpy库.md",
-    "shortcut/notebook.md",
-    "shortcut/vscode.md",
-    "Python/datasets库-huggingface.md",
-    "正则表达式/Python正则表达式库re.md",
     "LaTex",
     "DeepLearning",
     "other/asset/cahtGPT-4.png",
@@ -200,7 +213,6 @@
     "C++/asset/mingw设置界面.png",
     "C++/asset",
     "Windows",
-    "shortcut",
     "algorithm/asset/对数器实现.png",
     "Unity/asset/Pasted image 20231212170415.png",
     "Unity/asset/Pasted image 20231212170219.png",

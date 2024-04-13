@@ -1,6 +1,24 @@
 链接：
 [Markdown语法之数学公式【总结】](https://blog.csdn.net/m0_46190471/article/details/126130602)
 [Markdown公式拓展：添加颜色、空格、大括号](http://t.csdnimg.cn/wBcnE)
+
+## 帽子
+```
+\hat{x}
+```
+渲染结果：$\hat{x}$
+
+## 分式
+```
+分式：$\frac{x}{y}$
+```
+渲染结果：$\frac{x}{y}$
+## 累加
+```
+累加：$\sum_{x}^{y}$
+```
+渲染结果：$\sum_{x}^y$
+
 ## 上下划线
 
 ```

@@ -38,7 +38,7 @@
 - **-P:** 随机端口映射，容器内部端口**随机**映射到主机的端口
 - **-p:** 指定端口映射，格式为：主机(宿主)端口:容器端口
 - **-t:** 为容器重新分配一个伪输入终端，通常与 -i 同时使用；
-- **--name="nginx-lb":** 为容器指定一个名称；
+- **--name:** 为容器指定一个名称；如果容器名字中间有空格需加引号表示
 - **--dns 8.8.8.8:** 指定容器使用的DNS服务器，默认和宿主一致；
 - **--dns-search example.com:** 指定容器DNS搜索域名，默认和宿主一致；
 - **-h "mars":** 指定容器的hostname；
@@ -61,3 +61,23 @@ docker start <container_name>
 ```shell
 docker attach <container_name>
 ```
+
+#### 将容器保存为镜像：commit
+```shell
+docker commit 容器ID 容器镜像名:标签
+```
+#### 导出镜像：save
+```shell
+docker save -o 镜像文件名.tar 容器镜像名:标签
+```
+#### 导入镜像：load
+```shell
+docker load -i 镜像文件名.tar
+```
+
+#### 删除容器：rm
+`docker rm [OPTIONS] CONTAINER [CONTAINER...]`
+OPTIONS说明：
+- **-f** :通过 SIGKILL 信号强制删除一个运行中的容器。
+- **-l** :移除容器间的网络连接，而非容器本身。
+- **-v** :删除与容器关联的卷。
