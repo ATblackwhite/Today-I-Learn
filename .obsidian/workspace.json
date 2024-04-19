@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/torch.nn.md",
+                "file": "linux/打包(解压)压缩文件.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/torch.nn.md",
+                "file": "linux/打包(解压)压缩文件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/torch.nn.md",
+                "file": "linux/打包(解压)压缩文件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/torch.nn.md"
+                "file": "linux/打包(解压)压缩文件.md"
               }
             }
           }
@@ -173,13 +173,16 @@
   },
   "active": "0915c7c627156481",
   "lastOpenFiles": [
+    "DeepLearning/多分类的评估指标.md",
+    "shortcut/vscode.md",
+    "Python/datasets库-huggingface.md",
+    "Python/torch.nn.md",
     "Python/torch.backends.cudnn.md",
     "linux/打包(解压)压缩文件.md",
     "word/压缩包内文档保存.md",
     "Python/torch.Tensor.md",
     "Python/torch库.md",
     "markdown/markdown数学公式.md",
-    "Python/torch.nn.md",
     "未命名",
     "word/插入引用文献.md",
     "word",
@@ -198,10 +201,7 @@
     "Python/Conda添加镜像源.md",
     "Python/Conda环境pip镜像源.md",
     "LaTex/标签.md",
-    "Python/读写文件.md",
-    "vim/vim命令大全.md",
     "vim",
-    "Python/查看CUDA版本.md",
     "Docker",
     "LaTex",
     "DeepLearning",
