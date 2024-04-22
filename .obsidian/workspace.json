@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux/打包(解压)压缩文件.md",
+                "file": "Python/torch库.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux/打包(解压)压缩文件.md",
+                "file": "Python/torch库.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux/打包(解压)压缩文件.md",
+                "file": "Python/torch库.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux/打包(解压)压缩文件.md"
+                "file": "Python/torch库.md"
               }
             }
           }
@@ -173,12 +173,13 @@
   },
   "active": "0915c7c627156481",
   "lastOpenFiles": [
+    "linux/查看进程.md",
+    "linux/打包(解压)压缩文件.md",
     "DeepLearning/多分类的评估指标.md",
     "shortcut/vscode.md",
     "Python/datasets库-huggingface.md",
     "Python/torch.nn.md",
     "Python/torch.backends.cudnn.md",
-    "linux/打包(解压)压缩文件.md",
     "word/压缩包内文档保存.md",
     "Python/torch.Tensor.md",
     "Python/torch库.md",
@@ -200,7 +201,6 @@
     "Python/pip指令.md",
     "Python/Conda添加镜像源.md",
     "Python/Conda环境pip镜像源.md",
-    "LaTex/标签.md",
     "vim",
     "Docker",
     "LaTex",
